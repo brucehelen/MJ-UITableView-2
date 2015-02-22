@@ -21,6 +21,7 @@
 		32D57CA91A995D2B003EE746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D57C8B1A995D2B003EE746 /* UIKit.framework */; };
 		32D57CB11A995D2B003EE746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D57CAF1A995D2B003EE746 /* InfoPlist.strings */; };
 		32D57CB31A995D2B003EE746 /* UITableView_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D57CB21A995D2B003EE746 /* UITableView_____Tests.m */; };
+		32D57CBE1A996046003EE746 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D57CBD1A996046003EE746 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,11 @@
 		32D57CAE1A995D2B003EE746 /* UITableView-编辑模式Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView-编辑模式Tests-Info.plist"; sourceTree = "<group>"; };
 		32D57CB01A995D2B003EE746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32D57CB21A995D2B003EE746 /* UITableView_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView_____Tests.m"; sourceTree = "<group>"; };
+		32D57CBC1A996046003EE746 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		32D57CBD1A996046003EE746 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		32D57CBF1A997DC5003EE746 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		32D57CC01A997DC5003EE746 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		32D57CC11A997DC5003EE746 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 				32D57C991A995D2B003EE746 /* Main.storyboard */,
 				32D57C9C1A995D2B003EE746 /* MJViewController.h */,
 				32D57C9D1A995D2B003EE746 /* MJViewController.m */,
+				32D57CBC1A996046003EE746 /* Person.h */,
+				32D57CBD1A996046003EE746 /* Person.m */,
 				32D57C9F1A995D2B003EE746 /* Images.xcassets */,
 				32D57C8E1A995D2B003EE746 /* Supporting Files */,
 			);
@@ -212,6 +220,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 32D57C7B1A995D2B003EE746;
 			productRefGroup = 32D57C851A995D2B003EE746 /* Products */;
@@ -252,6 +261,7 @@
 			files = (
 				32D57C941A995D2B003EE746 /* main.m in Sources */,
 				32D57C9E1A995D2B003EE746 /* MJViewController.m in Sources */,
+				32D57CBE1A996046003EE746 /* Person.m in Sources */,
 				32D57C981A995D2B003EE746 /* MJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +289,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				32D57C911A995D2B003EE746 /* en */,
+				32D57CC01A997DC5003EE746 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -287,6 +298,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				32D57C9A1A995D2B003EE746 /* Base */,
+				32D57CBF1A997DC5003EE746 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -295,6 +307,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				32D57CB01A995D2B003EE746 /* en */,
+				32D57CC11A997DC5003EE746 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
