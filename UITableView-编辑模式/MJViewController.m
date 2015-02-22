@@ -73,6 +73,17 @@
                       withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
+// 实现了这个代理方法，那么在点击删除按钮时左边会自动产生滑动按钮
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
+{
+    // 更新数据源
+    Person *p = _Persons[sourceIndexPath.row];
+    
+    [_Persons removeObject:p];
+    [_Persons insertObject:p atIndex:destinationIndexPath.row];
+}
+
+
 @end
 
 
